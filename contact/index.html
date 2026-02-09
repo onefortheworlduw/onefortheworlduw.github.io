@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/jpg" href="images/Primary Logo.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Nav bar-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="../" id="navbar__logo">One for the World UW Madison</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="../" class="navbar__links"> Home </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../team" class="navbar__links"> Team </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../events" class="navbar__links"> Events </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../contact" class="navbar__links">
+              <u>Contact</u>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../involve" class="navbar__links"> Get Involved </a>
+          </li>
+          <li class="navbar__btn">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdfL7T36h4JbT5ZKZylRBYwciCQSOoJYK5VC6fjMGRH9vygMQ/viewform?usp=dialog"
+              class="button"
+            >
+              Sign Up
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content here-->
+    <div class="title__container">
+      <h1 class="title">Contact Us</h1>
+    </div>
+    <div class="invitation__container">
+      <p>
+        Thank you for your interest! Please ask any question related to One for
+        the World - UW Madison to us. Please provide either your .wisc email or
+        your student email. We look forward to chatting with you!
+      </p>
+    </div>
+    <div class="form__container">
+      <form
+        class="signup-form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="1aceded4-e001-4142-9d47-da8cac3b5d47"
+        />
+        <input
+          type="text"
+          name="fullname"
+          placeholder="First and last name"
+          required
+        />
+
+        <input type="email" name="email" placeholder="Your Email" required />
+
+        <textarea
+          name="message"
+          placeholder="Enter a message for us"
+          required
+        ></textarea>
+
+        <button type="submit" class="main__btn">
+          <span>Submit</span>
+        </button>
+      </form>
+    </div>
+    <!-- -->
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Pages</h3>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../team">Team</a></li>
+              <li><a href="../events">Events</a></li>
+              <li><a href="../contact">Contact</a></li>
+              <li><a href="../involve">Get Involved</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-column">
+          <h3>Social</h3>
+          <ul class="social-links">
+            <li><a href="https://win.wisc.edu/organization/oftw">WIN</a></li>
+            <li>
+              <a href="https://www.instagram.com/onefortheworlduw/"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column newsletter-section">
+          <div class="footer-brand">
+            <h2 class="footerh2">One For the World</h2>
+            <h2 class="sub-brand">UW-Madison</h2>
+          </div>
+
+          <h3>Stay up-to-date!</h3>
+
+          <form
+            class="signup-form"
+            action="https://api.sheetmonkey.io/form/fEsNA2x3qXRYYFs2GnR76F"
+            method="post"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="First name last name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" name="email" required />
+            </div>
+            <button type="submit" class="btn-subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="../app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+    <link rel="stylesheet" href="../photos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" type="image/jpg" href="images/Primary Logo.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Nav bar-->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="../" id="navbar__logo">One for the World UW Madison</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="../" class="navbar__links"> Home </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../team" class="navbar__links">
+              <u>Team</u>
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../events" class="navbar__links"> Events </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../contact" class="navbar__links"> Contact </a>
+          </li>
+          <li class="navbar__item">
+            <a href="../involve" class="navbar__links"> Get Involved </a>
+          </li>
+          <li class="navbar__btn">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdfL7T36h4JbT5ZKZylRBYwciCQSOoJYK5VC6fjMGRH9vygMQ/viewform?usp=dialog"
+              class="button"
+            >
+              Sign Up
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content here-->
+    <!-- Container that describes what the officer do and stuff-->
+    <div class="officer__intro">
+      <h1 class="title">Our team</h1>
+    </div>
+    <!-- Containers for the officers-->
+    <div class="team__grid">
+      <div class="alex">
+        <img class="alex__pic" src="../images/alex.jpg" />
+        <h2 class="names">Alexandra Wienkes</h2>
+        <p class="position">President</p>
+      </div>
+      <div class="maya">
+        <img class="maya__pic" src="../images/maya.jpeg" />
+        <h2 class="names">Maya Guerriero</h2>
+        <p class="position">President</p>
+      </div>
+      <div class="claire">
+        <img class="claire__pic" src="../images/claire.jpeg" />
+        <h2 class="names">Claire Boysen</h2>
+        <p class="position">Social Media & Marketing Specialist</p>
+      </div>
+      <div class="mia">
+        <img class="mia__pic" src="../images/mia.jpg" />
+        <h2 class="names">Mia Campbell</h2>
+        <p class="position">Outreach Coordinator</p>
+      </div>
+      <div class="ella">
+        <img class="ella__pic" src="../images/ella.jpeg" />
+        <h2 class="names">Ella Liutikas</h2>
+        <p class="position">Programming & Events Specialist</p>
+      </div>
+      <div class="luray">
+        <img class="luray__pic" src="../images/luray.jpeg" />
+        <h2 class="names">Luray He</h2>
+        <p class="position">Tech Specialist</p>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Pages</h3>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="../">Home</a></li>
+              <li><a href="../team">Team</a></li>
+              <li><a href="../events">Events</a></li>
+              <li><a href="../contact">Contact</a></li>
+              <li><a href="../involve">Get Involved</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-column">
+          <h3>Social</h3>
+          <ul class="social-links">
+            <li><a href="https://win.wisc.edu/organization/oftw">WIN</a></li>
+            <li>
+              <a href="https://www.instagram.com/onefortheworlduw/"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column newsletter-section">
+          <div class="footer-brand">
+            <h2 class="footerh2">One For the World</h2>
+            <h2 class="sub-brand">UW-Madison</h2>
+          </div>
+
+          <h3 class="footerh3">Stay up-to-date!</h3>
+
+          <form
+            class="signup-form"
+            action="https://api.sheetmonkey.io/form/fEsNA2x3qXRYYFs2GnR76F"
+            method="post"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="First name last name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" name="email" required />
+            </div>
+            <button type="submit" class="btn-subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="../app.js"></script>
+  </body>
+</html>

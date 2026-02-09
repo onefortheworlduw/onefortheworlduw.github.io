@@ -1,0 +1,26 @@
+{
+  "name": "oftw-uw-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lh86474/OFTW-UW-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lh86474/OFTW-UW-Website/issues"
+  },
+  "homepage": "https://github.com/lh86474/OFTW-UW-Website#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "google-auth-library": "^10.5.0",
+    "google-spreadsheet": "^5.0.2"
+  }
+}
