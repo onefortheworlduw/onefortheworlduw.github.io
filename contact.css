@@ -125,11 +125,11 @@
         transition: all 0.5s ease;
         height: 70vh;
         z-index: -1;
-        background:#ED7043;
+        background: #ED7043;
     }
 
     .navbar__menu.active {
-        background:#ED7043;
+        background: #ED7043;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -138,9 +138,18 @@
         font-size: 1.6rem;
     }
 
+    /* --- UPDATED SECTION START --- */
     #navbar__logo {
         padding-left: 25px;
+        font-size: 1.2rem;       /* Reduces text size for mobile */
+        max-width: 70%;          /* Prevents text from reaching the hamburger icon */
+        white-space: nowrap;     /* Forces text to stay on one line */
+        overflow: hidden;        /* Hides text that overflows the container */
+        text-overflow: ellipsis; /* Adds "..." if the name is still too long */
+        display: block;          /* Ensures max-width works correctly */
+        align-self: center;      /* Vertically centers the logo */
     }
+    /* --- UPDATED SECTION END --- */
 
     .navbar__toggle .bar {
         width: 25px;
@@ -166,6 +175,7 @@
         top: 20%;
         right: 5%;
         transform: translate(5%, 20%);
+        cursor: pointer; /* Good practice for clickability */
     }
 
     .navbar__btn {
@@ -193,7 +203,7 @@
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
-    
+
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
