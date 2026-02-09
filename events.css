@@ -258,15 +258,23 @@
     object-fit: cover;
 }
 
-/* Mobile Responsiveness  */
-@media screen and (max-width: 768px) {
-    .Wisconsin__Welcome {
+@media screen and (max-width: 960px) {
+    
+    .wisconsin__welcome__images {
         flex-direction: column; 
-        text-align: center;     
+        width: 100%;
+    }
+
+    .wisconsin__welcome__images img {
+        width: 100%;      
+        height: auto;     
+        margin-bottom: 15px; 
     }
     
-    .Wisconsin__welcome__text {
-        text-align: center;
+    .Wisconsin__Welcome {
+        margin: 20px auto; 
+        padding: 0 15px;   
+        gap: 20px;         
     }
 }
 

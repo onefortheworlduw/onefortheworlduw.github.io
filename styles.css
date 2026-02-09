@@ -139,19 +139,16 @@
         font-size: 1.6rem;
     }
 
-    /* --- UPDATED SECTION START --- */
     #navbar__logo {
         padding-left: 25px;
-        font-size: 1.2rem;       /* Reduces text size for mobile */
-        max-width: 70%;          /* Prevents text from reaching the hamburger icon */
-        white-space: nowrap;     /* Forces text to stay on one line */
-        overflow: hidden;        /* Hides text that overflows the container */
-        text-overflow: ellipsis; /* Adds "..." if the name is still too long */
-        display: block;          /* Ensures max-width works correctly */
-        align-self: center;      /* Vertically centers the logo */
+        font-size: 1.2rem;       
+        max-width: 70%;          
+        white-space: nowrap;     
+        overflow: hidden;        
+        text-overflow: ellipsis; 
+        display: block;          
+        align-self: center;      
     }
-    /* --- UPDATED SECTION END --- */
-
     .navbar__toggle .bar {
         width: 25px;
         height: 3px;
@@ -372,15 +369,64 @@
 
 /* Mobile responsive */
 
-/* This handles phones (screens smaller than 480px) */
-@media screen and (max-width: 480px) {
-    
-    .learn__give {
-        font-size: 1.2rem; /* Drops it down to about 19px */
-        padding: 15px;     /* Adds a bit more space so it's not cramped */
-        text-align: center; /* Ensures centered text on small screens */
+@media screen and (max-width: 960px) {
+
+    .Hero__section {
+        height: 50vh;        
+        font-size: 1.2rem;   
+        text-align: center;
+        padding: 0 15px;
     }
 
+    .shocking__statistic {
+        font-size: 2rem;     
+        padding: 0 10px;
+    }
+    
+    .main__content {
+        font-size: 1rem;     
+        padding: 0 20px;     
+        text-align: left;    
+    }
+
+    .call__to__action, 
+    .pledge__info, 
+    .learn__give, 
+    .charity__list__header {
+        flex-direction: column; 
+        padding: 30px 15px;     
+        font-size: 1.3rem;      
+        text-align: center;
+        height: auto;           
+    }
+
+    .pledge__info__content img, 
+    .learn__give__content img {
+        width: 100%;            
+        max-width: 100%;        
+        height: auto;           
+        margin-top: 20px;       
+    }
+
+    .pledge__info__content,
+    .learn__give__text__content {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        margin: 0;             
+    }
+
+    #charity__list {
+        font-size: 1.2rem;
+        margin: 20px;          
+        text-align: center;    
+    }
+
+    .main__btn {
+        width: 100%;           
+        margin: 10px 0;
+        display: block;       
+    }
 }
 
 
