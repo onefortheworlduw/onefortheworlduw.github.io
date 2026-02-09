@@ -238,19 +238,16 @@
     padding: 20px;
 }
 
-/* 2. The Left Side (Text) */
 .Wisconsin__welcome__text {
     flex: 1;                  
     text-align: left;         
 }
 
-/* 3. The Right Side (Images) */
 .wisconsin__welcome__images {
     flex: 1;                  
     display: flex;            
     gap: 10px;
 }
-
 
 .wisconsin__welcome__images img {
     width: 100%;         
@@ -260,7 +257,16 @@
 
 @media screen and (max-width: 960px) {
     
+    .Wisconsin__Welcome {
+        display: flex;           
+        flex-direction: column;  
+        margin: 20px auto; 
+        padding: 0 15px;   
+        gap: 20px;         
+    }
+
     .wisconsin__welcome__images {
+        display: flex;
         flex-direction: column; 
         width: 100%;
     }
@@ -270,11 +276,13 @@
         height: auto;     
         margin-bottom: 15px; 
     }
-    
-    .Wisconsin__Welcome {
-        margin: 20px auto; 
-        padding: 0 15px;   
-        gap: 20px;         
+
+    .Wisconsin__welcome__text {
+        text-align: center; 
+    }
+
+    .wisconsin__welcome__header {
+        margin-bottom: 15px; 
     }
 }
 
