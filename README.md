@@ -41,13 +41,13 @@ but for now, please bear with me.
 To change a block of text (paragraph), use control (or commmand on mac) F and type in <p> on an HTML document until you find the text that you want to change. 
 Any text can be changed just be changing the text enclosed in the opening and closing tags in the HTML document. 
 Ex.
-<p> change me</p>
-<p> I am changed</p>
+<p>change me</p>
+<p>I have been changed</p>
 
 Some common elements
 <p></p> is a paragraph opening and closing tag. 
 <h1></h1> is a header opening and closing tag. Anything that begins with h and ends with a number, like <h2></h2> is a header
-<img> is an image tag. You will see it int he form of <img src = "image relative path">
+"<img>" is an image tag. You will see it int he form of <img src = "image relative path">
 
 Changing the CSS should only be done when one wants to change the font-size, font, coloring, positioning, images, etc. 
 
@@ -62,7 +62,7 @@ To download an image, please make sure to download it in the "images" folder in 
 Copy the "relative path" by right clicking on the newly downloaded image on vscode. The relative path is where the program will find our image. It's a "path" to where the image is
 based on the where the program is running from. 
 
-Go to the specific background-image property or <img> element and copy and paste your relative path to the image. 
+Go to the specific background-image property or "<img>" element and copy and paste your relative path to the image. 
 
 ## Need Help?
 
