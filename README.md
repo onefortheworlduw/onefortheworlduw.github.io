@@ -47,7 +47,7 @@ Ex.
 Some common elements
 <p></p> is a paragraph opening and closing tag. 
 <h1></h1> is a header opening and closing tag. Anything that begins with h and ends with a number, like <h2></h2> is a header
-"<img>" is an image tag. You will see it int he form of <img src = "image relative path">
+"<img>" is an image tag. You will see it int he form of "<img src = "image relative path">"
 
 Changing the CSS should only be done when one wants to change the font-size, font, coloring, positioning, images, etc. 
 
@@ -63,6 +63,13 @@ Copy the "relative path" by right clicking on the newly downloaded image on vsco
 based on the where the program is running from. 
 
 Go to the specific background-image property or "<img>" element and copy and paste your relative path to the image. 
+
+## Form services
+
+Please go to https://dashboard.sheetmonkey.io/edit/fEsNA2x3qXRYYFs2GnR76F to manage the contact page form 
+Please go to https://app.web3forms.com/dashboard to manage the footer email subscription form. 
+
+All of the services are free. 
 
 ## Need Help?
 
