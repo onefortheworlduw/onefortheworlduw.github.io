@@ -360,6 +360,11 @@
     border-radius: 20px;
 }
 
+.main__btn span {
+    position: relative;
+    z-index: 1;
+}
+
 .main__btn:hover:after {
     width: 100%;
 }
