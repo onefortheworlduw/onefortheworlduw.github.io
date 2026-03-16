@@ -66,10 +66,11 @@ Go to the specific background-image property or "<img>" element and copy and pas
 
 ## Form services
 
-Please go to https://dashboard.sheetmonkey.io/edit/fEsNA2x3qXRYYFs2GnR76F to manage the contact page form 
-Please go to https://app.web3forms.com/dashboard to manage the footer email subscription form. 
+Please go to https://app.web3forms.com/dashboard to manage the contact page form 
+Please go to https://dashboard.sheetmonkey.io/edit/3MzFZttDTsxDmqadYmCqwd to manage the footer email subscription form. 
 
-All of the services are free. 
+
+All of the services are free and created under the UW-MADISON account
 
 ## Need Help?
 
