@@ -467,6 +467,13 @@ div > img {
     margin: 30px;
     justify-content: center;
 }
+.Giving__Game__Social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    justify-content: center;
+}
 
 /* Footer styles */
 
